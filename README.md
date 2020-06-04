@@ -15,5 +15,5 @@ A collection js files for shortcodes of Hugo than enable blocks in Netlify CMS T
 Add the following after the script tag of **Netlify CMS**
 
 ```html
-<script src="https://sharadcodes.github.io/hugo-shortcodes-netlify-cms/dist/hugo_shortcodes_netlify_cms.js></script>"
+<script src="https://sharadcodes.github.io/hugo-shortcodes-netlify-cms/dist/hugo_shortcodes_netlify_cms.js"></script>
 ```
