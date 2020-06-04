@@ -1,0 +1,21 @@
+name: Merger CI
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run a multi-line script
+      run: |
+        cat src/*.js > hugo_shortcodes_netlify_cms.js
+    - name: Add & Commit files
+      run: |
+        git config --local user.email "sharadcodes@github.com"
+        git config --local user.name "sharadcodes"
+        git add .
+        git commit -m "Added Changes & Merged File" -a
+        git push -f -q https://${{ secrets.GITHUB_TOKEN }}@github.com/sharadcodes/hugo-shortcodes-netlify-cms.git master
