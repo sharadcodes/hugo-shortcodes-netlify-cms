@@ -12,7 +12,7 @@ CMS.registerEditorComponent({
             widget: "string"
         },
     ],
-    pattern: /^gist (\S+)$/,
+    pattern: /^{{< gist ([a-zA-Z0-9-_]+) ([a-zA-Z0-9-_]+) >}}/,
     fromBlock: function(match) {
         return {
             username: match[1],
