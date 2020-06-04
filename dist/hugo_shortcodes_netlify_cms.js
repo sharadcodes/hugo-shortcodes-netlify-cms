@@ -83,7 +83,7 @@ CMS.registerEditorComponent({
         label: "Tweet id",
         widget: "string"
     }],
-    pattern: /^{{< tweet ([a-zA-Z0-9]+) >}}/,
+    pattern: /{{< tweet ([a-zA-Z0-9]+) >}}/,
     fromBlock: function(match) {
         return {
             tid: match[1]
