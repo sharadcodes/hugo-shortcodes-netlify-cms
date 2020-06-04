@@ -18,6 +18,7 @@ Add the following after the script tag of **Netlify CMS**
 <script src="https://sharadcodes.github.io/hugo-shortcodes-netlify-cms/dist/hugo_shortcodes_netlify_cms.js"></script>
 ```
 
+## SCREENSHOT OF DROPDOWN
+![Snap](shorc_list.png)
 ## SCREENSHOT OF UI
-
 ![Snap](all_sc_ncms.png)
