@@ -12,7 +12,7 @@ CMS.registerEditorComponent({
             widget: "string"
         },
     ],
-    pattern: /^{{< figure src="([a-zA-Z0-9-_]+)" title="([a-zA-Z0-9-_]+)" >}}/,
+    pattern: /{{< figure src="([a-zA-Z0-9-_ ]+)" title="([a-zA-Z0-9-_ ]+)" >}}/,
     fromBlock: function(match) {
         return {
             title: match[1],
