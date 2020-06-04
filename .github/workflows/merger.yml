@@ -11,7 +11,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run a multi-line script
       run: |
-        cat src/*.js > src/hugo_shortcodes_netlify_cms.js
+        mkdir dist
+        cat src/*.js > dist/hugo_shortcodes_netlify_cms.js
     - name: Add & Commit files
       run: |
         git config --local user.email "sharadcodes@github.com"
