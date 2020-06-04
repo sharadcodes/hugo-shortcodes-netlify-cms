@@ -17,3 +17,7 @@ Add the following after the script tag of **Netlify CMS**
 ```html
 <script src="https://sharadcodes.github.io/hugo-shortcodes-netlify-cms/dist/hugo_shortcodes_netlify_cms.js"></script>
 ```
+
+## SCREENSHOT OF UI
+
+![Snap](all_sc_ncms.png)
