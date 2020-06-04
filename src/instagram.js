@@ -6,7 +6,7 @@ CMS.registerEditorComponent({
         label: "Post id",
         widget: "string"
     }],
-    pattern: /^{{< instagram ([a-zA-Z0-9]+) >}}/,
+    pattern: /{{< instagram ([a-zA-Z0-9]+) >}}/,
     fromBlock: function(match) {
         return {
             pid: match[1]
