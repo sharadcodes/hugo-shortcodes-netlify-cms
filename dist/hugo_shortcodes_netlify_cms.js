@@ -104,7 +104,7 @@ CMS.registerEditorComponent({
         label: "Vimeo shortcode",
         widget: "string"
     }],
-    pattern: /^{{< vimeo ([a-zA-Z0-9]+) >}}/,
+    pattern: /{{< vimeo ([a-zA-Z0-9]+) >}}/,
     fromBlock: function(match) {
         return {
             shortcode: match[1]
@@ -125,7 +125,7 @@ CMS.registerEditorComponent({
         label: "Youtube Video ID",
         widget: "string"
     }],
-    pattern: /^{{< youtube ([a-zA-Z0-9]+) >}}/,
+    pattern: /{{< youtube ([a-zA-Z0-9]+) >}}/,
     fromBlock: function(match) {
         return {
             id: match[1],
