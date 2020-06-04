@@ -6,7 +6,7 @@ CMS.registerEditorComponent({
         label: "Vimeo shortcode",
         widget: "string"
     }],
-    pattern: /^vimeo (\S+)$/,
+    pattern: /^{{< vimeo ([a-zA-Z0-9]+) >}}/,
     fromBlock: function(match) {
         return {
             shortcode: match[1]
