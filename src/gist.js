@@ -3,7 +3,7 @@ CMS.registerEditorComponent({
     label: "Gist",
     fields: [{
             name: "username",
-            label: "Gist Username",
+            label: "Github Username",
             widget: "string"
         },
         {
@@ -12,7 +12,7 @@ CMS.registerEditorComponent({
             widget: "string"
         },
     ],
-    pattern: /{{< gist ([a-zA-Z0-9-_]+) ([a-zA-Z0-9-_]+) >}}/,
+    pattern: /{{< gist ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
     fromBlock: function(match) {
         return {
             username: match[1],
