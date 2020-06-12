@@ -1,6 +1,6 @@
 # Hugo Shortcodes for Netlify CMS editor
 
-A collection js files for shortcodes of Hugo than enable blocks in Netlify CMS Text Editor.
+A collection of js files for shortcodes of Hugo that enable blocks in Netlify CMS Text Editor.
 
 ## List of shortcodes for the text editor
 1. [Gist](https://github.com/sharadcodes/hugo-shortcodes-netlify-cms/blob/master/src/gist.js)
