@@ -5,6 +5,8 @@
 <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" width="250">
 </div>  
 
+---
+
 A collection of js files for shortcodes of Hugo that enable blocks in Netlify CMS Text Editor.
 
 ## List of shortcodes for the text editor
