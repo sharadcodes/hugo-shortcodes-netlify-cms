@@ -13,7 +13,7 @@ CMS.registerEditorComponent({
         widget: "boolean"
       }
     ],
-    pattern: /{{< instagram ([a-zA-Z0-9]+) (hidecaption)?>}}/,
+    pattern: /{{< instagram ([a-zA-Z0-9]+)\s?(hidecaption)? >}}/,
     fromBlock: function(match) {
         return {
             pid: match[1],
