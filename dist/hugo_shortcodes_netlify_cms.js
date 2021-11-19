@@ -78,12 +78,12 @@ CMS.registerEditorComponent({
     },
     toBlock: function(obj) {
         return `{{< instagram ${obj.pid} ${
-          obj.hidecaption ? "hidecaption" : ""
+          obj.hidecaption ? "hidecaption " : ""
         }>}}`;
     },
     toPreview: function(obj) {
         return `{{< instagram ${obj.pid} ${
-          obj.hidecaption ? "hidecaption" : ""
+          obj.hidecaption ? "hidecaption " : ""
         }>}}`;
     },
 });
