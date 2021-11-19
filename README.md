@@ -29,3 +29,12 @@ Add the following after the script tag of **Netlify CMS**
 ![Snap](shorc_list.png)
 ## SCREENSHOT OF UI
 ![Snap](all_sc_ncms.png)
+
+---
+
+# Resources
+
+## Themes
+So I've created some HUGO themes which are listed below, you may want to have a look because they look amazing :)
+
+* [Hugo Theme Serial Programmer](https://github.com/sharadcodes/hugo-theme-serial-programmer)  ([Live Demo](https://sharadcodes.github.io/hugo-theme-serial-programmer/)), this theme is also available for Jekyll & Gatsby.
