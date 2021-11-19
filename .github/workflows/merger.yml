@@ -2,8 +2,6 @@ name: Merger CI
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,7 +13,7 @@ jobs:
         cat src/*.js > dist/hugo_shortcodes_netlify_cms.js
     - name: Add & Commit files
       run: |
-        git config --local user.email "sharadcodes@github.com"
+        git config --local user.email "dev_sharad@outlook.com"
         git config --local user.name "sharadcodes"
         git add .
         git commit -m "Added Changes & Merged File" -a
