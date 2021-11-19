@@ -9,11 +9,11 @@ CMS.registerEditorComponent({
       },
       {
         name: "hidecaption",
-        label: "Hidden caption",
+        label: "Hide caption",
         widget: "boolean"
       }
     ],
-    pattern: /{{< instagram ([a-zA-Z0-9]+)\s?(hidecaption)? >}}/,
+    pattern: /{{< instagram (?<pid>[a-zA-Z0-9]+)\s{0,}(?<hidecaption_flag>hidecaption)?\s+>}}/,
     fromBlock: function(match) {
         return {
             pid: match[1],
