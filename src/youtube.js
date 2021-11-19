@@ -16,6 +16,6 @@ CMS.registerEditorComponent({
         return `{{< youtube ${obj.id} >}}`;
     },
     toPreview: function(obj) {
-        return `<img src="http://img.youtube.com/vi/${obj.id}/maxresdefault.jpg" alt="Youtube Video"/>`;
+        return `<img src="https://i3.ytimg.com/vi/${obj.id}/hqdefault.jpg" alt="Youtube Video"/>`;
     },
 });
