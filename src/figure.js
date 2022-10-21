@@ -1,6 +1,6 @@
 CMS.registerEditorComponent({
     id: "figure",
-    label: "Illustration",
+    label: "Figure",
     fields: [{
         name: "title",
         label: "Titre",
