@@ -3,7 +3,7 @@ CMS.registerEditorComponent({
     label: "Figure",
     fields: [{
         name: "title",
-        label: "Titre",
+        label: "Title",
         widget: "string",
     }, {
         name: "alt",
