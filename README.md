@@ -27,11 +27,13 @@ Add the following after the script tag of **Netlify CMS**
 
 ## Asking for support!
 
-Hello everyone, If you have used this project and if it has helped you in any way or if you just want to support me for my open source work, you can support me by donating any amount.
+Hello everyone, If you have used this theme and if it has helped you in any way or if you just want to support me for my open source work, you can support me by donating any amount.
 
 You can use the sponsor button at the top or on the right. 
 
-[Github Sponsor Page](https://github.com/sponsors/sharadcodes)
+### [Github Sponsor Page](https://github.com/sponsors/sharadcodes)
+
+### Crypto Wallet: `0x6274B3b84a66DD87929CEa9d10a4187BC6E70169`
 
 ---
 
