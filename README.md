@@ -1,8 +1,8 @@
 <div align="center">
   <h1>Hugo Shortcodes for Netlify CMS editor</h1>
-<img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" width="250">
-<img src="https://forthebadge.com/images/badges/built-with-love.svg" width="150">
-<img src="https://forthebadge.com/images/badges/made-with-javascript.svg" width="250">
+<img src="https://web.archive.org/web/20230730063628if_/https://forthebadge.com/images/badges/powered-by-responsibility.svg" width="250">
+<img src="https://web.archive.org/web/20230730063628if_/https://forthebadge.com/images/badges/built-with-love.svg" width="150">
+<img src="https://web.archive.org/web/20230730063628if_/https://forthebadge.com/images/badges/made-with-javascript.svg" width="250">
 </div>  
 
 ---
