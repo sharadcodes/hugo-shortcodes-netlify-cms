@@ -33,8 +33,6 @@ You can use the sponsor button at the top or on the right.
 
 ### [Github Sponsor Page](https://github.com/sponsors/sharadcodes)
 
-### Crypto Wallet: `0x6274B3b84a66DD87929CEa9d10a4187BC6E70169`
-
 ---
 
 ## SCREENSHOT OF DROPDOWN
